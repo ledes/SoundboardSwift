@@ -15,6 +15,7 @@
 		6E5325341C42C02E00F92CAA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6E5325321C42C02E00F92CAA /* LaunchScreen.storyboard */; };
 		6E53253F1C42C02E00F92CAA /* SoundboardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E53253E1C42C02E00F92CAA /* SoundboardTests.swift */; };
 		6E53254A1C42C02E00F92CAA /* SoundboardUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E5325491C42C02E00F92CAA /* SoundboardUITests.swift */; };
+		6E5325581C42C9E500F92CAA /* horse.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 6E5325571C42C9E500F92CAA /* horse.m4a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		6E5325451C42C02E00F92CAA /* SoundboardUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SoundboardUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6E5325491C42C02E00F92CAA /* SoundboardUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundboardUITests.swift; sourceTree = "<group>"; };
 		6E53254B1C42C02E00F92CAA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6E5325571C42C9E500F92CAA /* horse.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; name = horse.m4a; path = ../../../../Desktop/horse.m4a; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 		6E5325251C42C02E00F92CAA /* Soundboard */ = {
 			isa = PBXGroup;
 			children = (
+				6E5325571C42C9E500F92CAA /* horse.m4a */,
 				6E5325261C42C02E00F92CAA /* AppDelegate.swift */,
 				6E5325281C42C02E00F92CAA /* SoundListViewController.swift */,
 				6E53252A1C42C02E00F92CAA /* Main.storyboard */,
@@ -237,6 +240,7 @@
 			files = (
 				6E5325341C42C02E00F92CAA /* LaunchScreen.storyboard in Resources */,
 				6E5325311C42C02E00F92CAA /* Assets.xcassets in Resources */,
+				6E5325581C42C9E500F92CAA /* horse.m4a in Resources */,
 				6E53252C1C42C02E00F92CAA /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
