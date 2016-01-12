@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6E2655061C45441200F0C47C /* NewSoundViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E2655051C45441200F0C47C /* NewSoundViewController.swift */; };
+		6E3575451C4404D90055D027 /* meau.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 6E3575441C4404D90055D027 /* meau.m4a */; };
+		6E3575471C4404FC0055D027 /* Sound.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E3575461C4404FC0055D027 /* Sound.swift */; };
 		6E5325271C42C02E00F92CAA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E5325261C42C02E00F92CAA /* AppDelegate.swift */; };
 		6E5325291C42C02E00F92CAA /* SoundListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E5325281C42C02E00F92CAA /* SoundListViewController.swift */; };
 		6E53252C1C42C02E00F92CAA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6E53252A1C42C02E00F92CAA /* Main.storyboard */; };
@@ -36,6 +39,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		6E2655051C45441200F0C47C /* NewSoundViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewSoundViewController.swift; sourceTree = "<group>"; };
+		6E3575441C4404D90055D027 /* meau.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; name = meau.m4a; path = ../../../../Desktop/meau.m4a; sourceTree = "<group>"; };
+		6E3575461C4404FC0055D027 /* Sound.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Sound.swift; sourceTree = "<group>"; };
 		6E5325231C42C02E00F92CAA /* Soundboard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Soundboard.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6E5325261C42C02E00F92CAA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6E5325281C42C02E00F92CAA /* SoundListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundListViewController.swift; sourceTree = "<group>"; };
@@ -101,9 +107,12 @@
 		6E5325251C42C02E00F92CAA /* Soundboard */ = {
 			isa = PBXGroup;
 			children = (
+				6E3575441C4404D90055D027 /* meau.m4a */,
 				6E5325571C42C9E500F92CAA /* horse.m4a */,
 				6E5325261C42C02E00F92CAA /* AppDelegate.swift */,
 				6E5325281C42C02E00F92CAA /* SoundListViewController.swift */,
+				6E3575461C4404FC0055D027 /* Sound.swift */,
+				6E2655051C45441200F0C47C /* NewSoundViewController.swift */,
 				6E53252A1C42C02E00F92CAA /* Main.storyboard */,
 				6E5325301C42C02E00F92CAA /* Assets.xcassets */,
 				6E5325321C42C02E00F92CAA /* LaunchScreen.storyboard */,
@@ -241,6 +250,7 @@
 				6E5325341C42C02E00F92CAA /* LaunchScreen.storyboard in Resources */,
 				6E5325311C42C02E00F92CAA /* Assets.xcassets in Resources */,
 				6E5325581C42C9E500F92CAA /* horse.m4a in Resources */,
+				6E3575451C4404D90055D027 /* meau.m4a in Resources */,
 				6E53252C1C42C02E00F92CAA /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -269,6 +279,8 @@
 				6E5325291C42C02E00F92CAA /* SoundListViewController.swift in Sources */,
 				6E53252F1C42C02E00F92CAA /* Soundboard.xcdatamodeld in Sources */,
 				6E5325271C42C02E00F92CAA /* AppDelegate.swift in Sources */,
+				6E3575471C4404FC0055D027 /* Sound.swift in Sources */,
+				6E2655061C45441200F0C47C /* NewSoundViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -495,6 +507,7 @@
 				6E5325501C42C02E00F92CAA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6E5325511C42C02E00F92CAA /* Build configuration list for PBXNativeTarget "SoundboardTests" */ = {
 			isa = XCConfigurationList;
@@ -503,6 +516,7 @@
 				6E5325531C42C02E00F92CAA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6E5325541C42C02E00F92CAA /* Build configuration list for PBXNativeTarget "SoundboardUITests" */ = {
 			isa = XCConfigurationList;
@@ -511,6 +525,7 @@
 				6E5325561C42C02E00F92CAA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
